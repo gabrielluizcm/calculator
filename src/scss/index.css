@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #A12568;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}
+
+* body {
+  font-size: 1em;
+  background-color: #2A0944;
+  min-width: 400px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body header {
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+* body main {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #3B185F;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: left;
+}
+
+* body main * {
+  margin: 5px 0;
+}
+
+* body main h1 {
+  font-size: 2em;
+}
+
+* body main button,
+* body main input {
+  background-color: #FEC260;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+* body main input {
+  width: 200px;
+  text-align: right;
+}
+
+* body main button {
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s;
+  -webkit-animation: fadeIn 0.5s;
+  -moz-animation: fadeIn 0.5s;
+  -o-animation: fadeIn 0.5s;
+  -ms-animation: fadeIn 0.5s;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s;
+  -webkit-animation: fadeOut 0.5s;
+  -moz-animation: fadeOut 0.5s;
+  -o-animation: fadeOut 0.5s;
+  -ms-animation: fadeOut 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=index.css.map */
